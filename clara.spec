@@ -5,14 +5,6 @@ Version:	0.9.8
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Group(cs):	X11/Aplikace/Grafika
-Group(de):	X11/Anwendungen/Grafik
-Group(es):	X11/Aplicaciones/Gr·ficos
-Group(fr):	X11/Applications/Graphiques
-Group(ja):	X11/•¢•◊•Í•±°º•∑•Á•Û/•∞•È•’•£•√•Ø•π
-Group(pl):	X11/Aplikacje/Grafika
-Group(pt):	X11/AplicaÁıes/Gr·ficos
-Group(ru):	X11/“…Ãœ÷≈Œ…—/Á“¡∆…À¡
 Source0:	ftp://mandrake.redbox.cz/Mandrake-devel/projects/claraocr/%{name}-%{version}.tar.gz
 URL:		http://www.claraocr.org/
 BuildRequires:	XFree86-devel
