@@ -3,6 +3,7 @@ Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
 Version:	0.9.9
 Release:	1
+Epoch:		1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://mandrake.redbox.cz/Mandrake-devel/projects/claraocr/%{name}-%{version}.tar.gz
