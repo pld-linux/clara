@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://mandrake.redbox.cz/Mandrake-devel/projects/claraocr/%{name}-%{version}.tar.gz
+# Source0-md5:	00d92f2caeb0a4759638c5e808307529
 URL:		http://www.claraocr.org/
 BuildRequires:	XFree86-devel
 BuildRequires:	perl
