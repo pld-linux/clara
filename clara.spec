@@ -3,7 +3,7 @@ Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
 Version:	0.9.9
 %define	snap	20031214
-Release:	1.%{snap}.1
+Release:	1.%{snap}.2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Graphics
@@ -32,7 +32,8 @@ cyfrowego obrazu dokumentu.
 %{__make} all \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} \$(INCLUDE) \$(COPTS)" \
-	LDFLAGS="%{rpmldflags}"
+	LDFLAGS="%{rpmldflags}" \
+	LIBPATH="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
