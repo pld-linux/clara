@@ -2,12 +2,13 @@ Summary:	Cooperative Lightweight chAracter Recognizer (OCR)
 Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
 Version:	0.9.9
-Release:	1
+%define	snap	20030325
+Release:	1.%{snap}.1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	ftp://mandrake.redbox.cz/Mandrake-devel/projects/claraocr/%{name}-%{version}.tar.gz
-# Source0-md5:	00d92f2caeb0a4759638c5e808307529
+Source0:	ftp://mandrake.redbox.cz/Mandrake-devel/projects/claraocr/%{name}-%{snap}.tar.gz
+# Source0-md5:	2705b2c0498d4646a3b73f9089e05e08
 URL:		http://www.claraocr.org/
 BuildRequires:	XFree86-devel
 BuildRequires:	perl
@@ -25,7 +26,7 @@ Clara jest programem do OCR, czyli optycznego rozpoznawania znaków z
 cyfrowego obrazu dokumentu.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{snap}
 
 %build
 %{__make} all \
