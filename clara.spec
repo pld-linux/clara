@@ -1,7 +1,7 @@
 Summary:	Cooperative Lightweight chAracter Recognizer (OCR)
 Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
-Version:	20020402
+Version:	0.9.9
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
