@@ -12,8 +12,6 @@ BuildRequires:	XFree86-devel
 BuildRequires:	perl
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Clara is an OCR program. OCR stands for "Optical Character
