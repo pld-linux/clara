@@ -11,8 +11,8 @@ Group:		X11/Applications/Graphics
 Source0:	http://www.claraocr.org/sources/%{name}-%{snap}.tar.gz
 # Source0-md5:	3cd4eb76355d874f57058b19132e91d6
 URL:		http://www.claraocr.org/
-BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	perl-base
+BuildRequires:	xorg-lib-libX11-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -33,7 +33,7 @@ cyfrowego obrazu dokumentu.
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} \$(INCLUDE) \$(COPTS)" \
 	LDFLAGS="%{rpmldflags}" \
-	LIBPATH="-L/usr/X11R6/%{_lib}"
+	LIBPATH=
 
 %install
 rm -rf $RPM_BUILD_ROOT
