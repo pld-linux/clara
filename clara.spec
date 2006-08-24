@@ -3,7 +3,7 @@ Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
 Version:	0.9.9
 %define	snap	20031214
-Release:	1.%{snap}.2
+Release:	1.%{snap}.3
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Graphics
@@ -11,7 +11,7 @@ Group:		X11/Applications/Graphics
 Source0:	http://www.claraocr.org/sources/%{name}-%{snap}.tar.gz
 # Source0-md5:	3cd4eb76355d874f57058b19132e91d6
 URL:		http://www.claraocr.org/
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
