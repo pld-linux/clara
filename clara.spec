@@ -1,5 +1,5 @@
 Summary:	Cooperative Lightweight chAracter Recognizer (OCR)
-Summary(pl):	Niewielkie narzêdzie do kooperatywnego rozpoznawania znaków (OCR)
+Summary(pl.UTF-8):   Niewielkie narzÄ™dzie do kooperatywnego rozpoznawania znakÃ³w (OCR)
 Name:		clara
 Version:	0.9.9
 %define	snap	20031214
@@ -21,8 +21,8 @@ Recognition". An OCR program tries to recognize the characters from
 the digital image of a paper document. The name Clara stands for
 "Cooperative Lightweight chAracter Recognizer".
 
-%description -l pl
-Clara jest programem do OCR, czyli optycznego rozpoznawania znaków z
+%description -l pl.UTF-8
+Clara jest programem do OCR, czyli optycznego rozpoznawania znakÃ³w z
 cyfrowego obrazu dokumentu.
 
 %prep
