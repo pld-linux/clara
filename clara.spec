@@ -1,5 +1,5 @@
 Summary:	Cooperative Lightweight chAracter Recognizer (OCR)
-Summary(pl.UTF-8):   Niewielkie narzędzie do kooperatywnego rozpoznawania znaków (OCR)
+Summary(pl.UTF-8):	Niewielkie narzędzie do kooperatywnego rozpoznawania znaków (OCR)
 Name:		clara
 Version:	0.9.9
 %define	snap	20031214
